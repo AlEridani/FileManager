@@ -7,7 +7,7 @@ public class FileOr {
     private static final String[] COMPRESSED_EXTENSIONS = { "zip", "rar", "tar", "gz", "7z" };
 
     public static void main(String[] args) {
-        String targetDirectory = "H:\\downlo";
+        String targetDirectory = "파일경로 입력";
         organizeFiles(targetDirectory);
     }
 
